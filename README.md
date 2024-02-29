@@ -10,7 +10,6 @@ This documentation provides a step-by-step guide for enabling remote communicati
 Step 1: Clone respository, need to be done on both devices **Host** and **Client**
 ```
 clone the repositry using git clone
-cd zenoh-plugin-dds
 cargo build --release -p zplugin-dds
 cargo build --release -p zenoh-bridge-dds
 rosdep install --from-paths . --ignore-src -r -y
